@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet       href="index.css"               type="text/css"?>
+<!DOCTYPE    restaurante      SYSTEM "index.dtd">
+<restaurante>
+<descripcion>
+<name>Chicotes</name>
+<direccion>C/Rey Felipe VII</direccion>
+<telefono>987 73 37 22</telefono>
+</descripcion>
+<reserva>
+    <mesa id="1">
+        <nombre>Daniel Rosario Santos</nombre>
+        <personas>4</personas>
+        <hora>21:00</hora>
+        <dia>25-02-2023</dia>
+        </mesa>
+    <mesa id="2">
+        <nombre>Amancio Corcoles Savedra</nombre>
+        <personas>6</personas>
+        <hora>21:30</hora>
+        <dia>27-02-2023</dia>
+        </mesa>
+    <mesa id="3">
+        <nombre>Eustaquio Fernandéz</nombre>
+        <personas>4</personas>
+        <hora>22:00</hora>
+        <dia>25-02-2023</dia>
+        </mesa>
+</reserva>
+<redes-sociales>
+    <github>kladoov</github>
+</redes-sociales>
+</restaurante>

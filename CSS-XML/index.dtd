@@ -1,0 +1,16 @@
+<!ELEMENT restaurante (descripcion, reserva, redes-sociales)>
+<!ELEMENT descripcion (name, direccion, telefono)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT reserva (mesa+)>
+<!ELEMENT mesa (nombre, personas, hora, dia)>
+<!ATTLIST mesa id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+
+<!ELEMENT redes-sociales (github)>
+<!ELEMENT github (#PCDATA)>
