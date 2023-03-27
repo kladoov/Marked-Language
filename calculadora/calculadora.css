@@ -1,0 +1,36 @@
+/*background de los botones*/
+form {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+/*Cuadro de visualizacion de los numeros*/
+input[type=textfield] {
+    width: 64%;
+    padding: 16px 32px;
+    font-size: 35px;
+    margin: 8px;
+    border-radius: 4px;
+    text-align: left;
+    color: black;
+    background: grey;
+    border: none;
+}
+
+/*Decoracion del boton*/
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: 5D5D5D;
+    color: white; 
+    border-radius: 4px;
+    padding: 13px;
+    font-size: 35px;
+    width: 15%;
+    margin: 4px 2px;
+    border: none;
+}
+
+/*Al pasar por encima de los botones*/
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #333;
+}
