@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Formulario</title>
+<script type="text/javascript" src="validacion.js"></script>
+
+<style>
+body {
+    background: linear-gradient(180deg, #caf0f9, #3a5060);
+    }
+
+#texto {
+    background-color: white;
+    width: 92%;
+    border: 1px solid black;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #caf0f9;
+}
+</style>
+
+</head>
+
+<body>
+<div id="texto">
+<!--action="miphp.php" method="post"    el metodo get te da los valores del formulario, el post los oculta-->
+<h1><b>FORMULARIO MOL&Oacute;N</b></h1>
+<form name="formulario" action="miphp.php" method="post"> 
+<p>NOMBRE <input type="text" name="nombre"/></p>
+<p>CONTRASE&Ntilde;A <span style="color:red">* </span><input type="password" name="password"/></p>
+<p>REPETIR CONTRASE&Ntilde;A <span style="color:red">* </span><input type="password" name="password2"/></p>
+<p>Contrase&ntilde;a con un minimo 8 caracteres*</p>
+
+
+<fieldset>
+<legend><b>Tell me your gender:</b></legend>
+<p>Men <input type="radio" name="gender" value="hombre"/></p>
+<p>Woman <input type="radio" name="gender" value="woman"/></p>
+<p>Other <input type="radio" name="gender" value="other"/></p>
+</fieldset>
+
+<fieldset>
+<legend><b>What is your favorite colour: </b></legend>
+<p>Red: <input type="checkbox" name="tipos" value="red"/></p>
+<p>Yellow: <input type="checkbox" name="tipos" value="yellow"/></p>
+<p>Orange: <input type="checkbox" name="tipos" value="orange"/></p>
+<p>Purple: <input type="checkbox" name="tipos" value="purple"/></p>
+<p>Green: <input type="checkbox" name="tipos" value="green"/></p>
+<p>Blue: <input type="checkbox" name="tipos" value="blue"/></p>
+
+</fieldset>
+
+<p><b>Select your Operating System favorite</b></p>
+<select>
+<option value="select" selected="selected">-seleccionar-</option>
+<option value="android">Android</option>
+<option value="windows">Windows</option>
+<option value="ubuntu">Ubuntu</option>
+<option value="debian">Debian</option>
+<option value="kali">Kali</option>
+<option value="other">Other...
+</select>
+
+<p>Tell me your experience:</p>
+<textarea cols="70" rows="10"> </textarea>
+<p><b>CV: </b><input type="file"/></p>
+<input type="button" name="send" value="Enviar" onclick="validar()">
+<input type="reset" name="reset" value="Reset"></p>
+</form>
+
+</div>
+
+
+</body>
+</html>
