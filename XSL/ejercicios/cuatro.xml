@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+
+<libreria>
+
+<libro>
+  <titulo>Physication</titulo>
+  <autor>
+    <nombre>pepe</nombre>
+    <ape>garcia</ape>
+  </autor>
+  <editor>Charler River Media</editor>
+  <isbn>978-1584503804</isbn>
+  <precio>50.06</precio>
+</libro>
+
+<libro>
+  <titulo>Principios de seguridad informatica para usuarios</titulo>
+  <autor>
+    <nombre>luis</nombre>
+    <ape>perez</ape>
+  </autor>
+  <autor>
+    <nombre>Sara</nombre>
+    <ape>Fernandez</ape>
+  </autor>
+  <editor>Dykinson</editor>
+  <isbn>978-84-9849-998-8</isbn>
+  <precio>25.00</precio>
+</libro>
+
+<libro>
+  <titulo>Ejercicios complementarios de lógica digital</titulo>
+  <autor>
+  <nombre>ana</nombre>
+    <ape>marin</ape>
+  </autor>
+  <editor>Dykinson</editor>
+  <isbn>978-84-9849-703-8</isbn>
+  <precio>12.00</precio>
+</libro>
+
+</libreria>

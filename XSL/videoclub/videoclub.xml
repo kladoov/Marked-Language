@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="videoclub.xsl"?>
+<videoclub>
+
+<pelicula>
+    <titulo>la bestia</titulo>
+    <nacionalidad>española</nacionalidad>
+    <productor>P A</productor>
+    <director>D A</director>
+    <anio>2003</anio>
+    <foto>img/cartelera.gif</foto>
+    <url1 direccion="http://www.pccomponentes.com"></url1>
+    <url2> http://www.google.com</url2>
+</pelicula>
+
+<pelicula>
+    <titulo>la carretera</titulo>
+    <nacionalidad>francesa</nacionalidad>
+    <productor>P B</productor>
+    <director>D B</director>
+    <anio>1995</anio>
+    <foto>img/trafico.gif</foto>
+    <url1 direccion="http://www.pccomponentes.com"></url1>
+    <url2> http://www.google.com</url2>
+</pelicula> 
+
+<pelicula>
+    <titulo>ayendi en moto</titulo>
+    <nacionalidad>dominicano</nacionalidad>
+    <productor>AK</productor>
+    <director>kladov</director>
+    <anio>2023</anio>
+    <foto>img/tienda.gif</foto>
+    <url1 direccion="http://www.youtube.com"></url1>
+    <url2> http://www.twitter.com</url2>
+</pelicula> 
+
+</videoclub>

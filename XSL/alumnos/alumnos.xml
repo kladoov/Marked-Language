@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="alumnos.xsl"?>
+
+<ins>
+     <alumnos grupo="daw">
+       <tutor>antonia fernandez</tutor>
+       <alumno edad="19" >pepe</alumno>
+       <alumno edad="17" >sara</alumno>
+       <alumno edad="20" >juan</alumno>      
+       <alumno edad="18">luis</alumno>
+     </alumnos>
+     <alumnos grupo="asir">
+        <tutor>rafael diaz</tutor>
+        <alumno edad="17">ana</alumno>
+        <alumno edad="18">alberto</alumno>
+        <alumno edad="17"  >pedro</alumno>
+     </alumnos>
+</ins>
