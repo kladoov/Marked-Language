@@ -1,0 +1,176 @@
+body {
+    background: linear-gradient(180deg, #caf0f9, #3a5060);
+}
+
+
+/*INICIO CABECERA*/
+#cabecera {
+    background-color: 1c2541;
+    width: 92.1%;
+    height: 8.3%;
+    margin:auto;
+}
+
+#cabecera p {
+    color: white;
+    font-size: 1.5cm;
+    text-align: center;
+    font-family: forte;
+    border: 2px solid black;
+    letter-spacing: 5;
+    
+}
+/*FIN CABECERA*/
+
+
+/*INICIO PESTAÑAS*/
+.pestañas {
+    width: 18.3%;
+    height: 9%;
+    background-color: 3a5060;
+    border: 1px solid black;
+    float: left;
+}
+
+#indice {
+    margin-left: 3.95%;
+    width: 18.4%;
+    height: 9%;
+    background-color: 3a5060;
+    border: 1px solid black;
+    float: left;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pestañas p, a{
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.pestañas:hover {
+    background-color: grey;
+}
+
+#indice:hover {
+    background-color: grey;
+}
+/*FIN PESTAÑAS*/
+
+
+/*INICIO RELLENO*/
+#texto {
+    background-color: white;
+    height: 72%;
+    width: 92%;
+    border: 1px solid black;
+    margin: auto;
+    overflow: scroll;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#texto a {
+    background: linear-gradient(180deg, black, red);
+    font-size: 50px;
+}
+
+#lista {
+    background-color: white;
+    height: 72%;
+    width: 92%;
+    border: 1px solid black;
+    margin: auto;
+    overflow: scroll;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lista h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #caf0f9;
+    text-align: center;
+}
+
+#texto h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #caf0f9;
+    text-align: center;
+}
+#texto table {
+    margin: auto;
+}
+#texto img {
+    width: 250px;
+}
+
+/*POSICIONAMIENTO*/
+#red {
+    background-color: #FCB5B5;
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+
+.ared {
+    background-color: #F9FCB5;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+#green {
+    background-color: #C7FCB5;
+    width: 50%;
+    height: 40%;
+    float: left;
+}
+
+#brown {
+    background-color: #B5DEFC;
+    width: 50%;
+    height: 40%;
+    float: left;
+}
+
+#black {
+    clear: both;
+    background-color: #AAAAAA;
+    width: 100%;
+    height: 40%;
+}
+
+/*FIN RELLENO*/
+
+
+
+/*INICIO FIN*/
+#fin {
+    clear: both;
+    background-color: 1c2541;
+    border: 1px solid black;
+    width: 92%;
+    height: 8%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 10;
+}
+
+#fin a img {
+    width: 4.2%;
+    
+}
+
+#fin a img:hover {
+    background-color: grey;
+}
+/*FIN DEL FIN*/
+
+
