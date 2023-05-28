@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+<!ELEMENT rss (channel)>
+<!ELEMENT channel (title, link, description, language, item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT item (title, link, description, pubDate)>
+<!ELEMENT pubDate (#PCDATA)>
+]>
+
+<rss>
+  <channel>
+    <title>Aprende a hacer una pagina</title>
+    <link>https://www.amazon.es/</link>
+    <description>Un feed de ejemplo para ilustrar el uso del DTD</description>
+    <language>es</language>
+    
+    <item>
+      <title>Primera Entrada</title>
+      <link>https://www.youtube.com/</link>
+      <description>Esta es la primera entrada del feed.</description>
+      <pubDate>2023-05-18</pubDate>
+    </item>
+    
+    <item>
+      <title>Formularios</title>
+      <link>http://localhost:8088/KladovWeb/html/pagina5.html</link>
+      <description>Como crear formularios.</description>
+      <pubDate>2023-05-19</pubDate>
+    </item>
+    
+  </channel>
+</rss>
